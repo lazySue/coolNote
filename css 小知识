@@ -1,0 +1,6 @@
+1. vh = window.innerHeight包含滚动条高度和document.body.clientHeight
+    window 没有 clientHeight
+    body.clientHeight是元素可视区域的高
+    body.offsetHeight是元素实际高度
+2. H5页面滚动最好放在 window 层，没必要给页面第一层设置 height
+
