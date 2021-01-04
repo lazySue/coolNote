@@ -1,3 +1,11 @@
+/*
+ * @Author: your name
+ * @Date: 2018-05-29 13:46:46
+ * @LastEditTime: 2020-10-20 17:55:20
+ * @LastEditors: Please set LastEditors
+ * @Description: In User Settings Edit
+ * @FilePath: /coolNote/JS/Array.js
+ */
 /**
  * reduce 方法
  * 接收一个函数作为累加器，依次处理数组中的数据，最终返回一个数据。
@@ -84,12 +92,6 @@ var qsum = result.reduce((prev, cur) => {
   return cur.score * dis[cur.subject] + prev;
 },0)
 
-// 一串字符串中每个字母出现的次数
-var arrString = 'abcdaabc';
-arrString.split('').reduce((prev, cur) => {
-  prev[cur] ? prev[cur] ++ : prev[cur] = 1
-  return prev
-})
  /**
   *  shift() 从数组中删除第一个元素并返回已删除的元素（如果数组为空，则为undefined）。此方法更改数组的长度。
   * */
